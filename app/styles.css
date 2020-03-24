@@ -1,0 +1,102 @@
+#container{
+
+    box-sizing: border-box; 
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;  
+    position: relative;
+    align-items: center;
+    user-select: none;
+    position: relative; 
+    
+   }
+   
+   #slider{
+       margin: 0;
+       padding: 0;
+       list-style-type: none;
+       height: auto;
+       display: flex;
+       flex-wrap: nowrap;  
+   }
+   li{
+       display: block;
+       float: left;
+   }
+   
+   div.prev , div.next  {
+       width: 0;
+       height: 0;
+       box-sizing: border-box;
+       position: absolute;
+       opacity: 0.7;
+       /* border-top: 20px solid blue; */
+       border-right: 27px solid transparent ;
+       border-bottom: 22px solid rgb(128, 124, 124);
+       border-left: 27px solid transparent;
+       cursor: pointer;
+   }
+   
+   div.prev:hover , div.next:hover {
+       border-bottom: 22px solid rgb(236, 232, 232);
+       opacity: 0.8;
+       transition: 200ms ease-out;
+   }
+   div.prev{
+       left : 10px;
+       transform: rotate(-90deg);
+   }
+   
+   div.next{
+       right: 10px;
+       transform: rotate(90deg);
+   }
+   
+   #thumbnailBox{
+   
+       width: auto;
+       /* background-color: rgb(255, 255, 255); */
+       background-color: blueviolet;
+       display: flex;
+      justify-content: center;
+      align-items: space-around;
+      user-select: none;
+   }
+   /* .thumbnailBoxLarge{
+       position: absolute;
+   } */
+   
+   .imageWrapper {
+        /* width: 50px; */
+       height: 39px;
+       /* margin-right: 6px; */
+       box-sizing: border-box;
+       display:flex;
+       overflow: hidden;
+       flex-shrink: 0;
+   }
+   .imageWrapper:last-child{
+       margin-right: 0;
+   }
+   
+   .cloneElements {
+         width: 100%;
+       height: 100%;
+      
+   }
+   /* .cloneElements:hover , .cloneElements:active {
+      border-radius: 6px;
+      border: 1px solid rgb(0, 0, 0);
+   
+   }
+      */
+    .active {
+          border-radius: 10px;
+          width: 50px;
+          height: 40px;
+          margin: 3px;
+          box-sizing: border-box;
+          display:flex;
+          overflow: hidden;
+      }
