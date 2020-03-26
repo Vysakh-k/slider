@@ -59,11 +59,14 @@
        width: auto;
        /* background-color: rgb(255, 255, 255); */
        background-color: blueviolet;
-       position: fixed;
        display: flex;
       justify-content: center;
       align-items: space-around;
       user-select: none;
+   }
+
+   .fixedPosition {
+       position: fixed;
    }
    /* .thumbnailBoxLarge{
        position: absolute;
@@ -71,7 +74,7 @@
    
    .imageWrapper {
         /* width: 50px; */
-       height: 39px;
+       /* height: 39px; */
        /* margin-right: 6px; */
        box-sizing: border-box;
        display:flex;
