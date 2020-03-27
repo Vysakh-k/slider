@@ -4,10 +4,10 @@
     width: auto;
     height: auto;
     margin: 0 auto;
-    /* overflow: hidden;   */
+    overflow: hidden;  
     align-items: center;
     user-select: none;
-    position: relative;  
+    position: relative; 
     
    }
    /* .sliderDiv{
@@ -33,14 +33,14 @@
        position: absolute;
        opacity: 0.7;
        /* border-top: 20px solid blue; */
-       border-right: 27px solid transparent ;
-       border-bottom: 27px solid rgb(128, 124, 124);
-       border-left: 27px solid transparent;
+       border-right: 25px solid transparent ;
+       border-bottom: 25px solid rgb(128, 124, 124);
+       border-left: 25px solid transparent;
        cursor: pointer;
    }
    
    div.prev:hover , div.next:hover {
-       border-bottom: 27px solid rgb(236, 232, 232);
+       border-bottom: 25px solid rgb(236, 232, 232);
        opacity: 0.8;
        transition: 200ms ease-out;
    }
@@ -60,17 +60,14 @@
        /* background-color: rgb(255, 255, 255); */
        background-color: red;
        display: flex;
-      justify-content: center;
-      align-items: space-around;
-      user-select: none;
+       justify-content: center;
+       align-items: space-around;
+       user-select: none;
    }
 
    .fixedPosition {
-       position: fixed;
+      float: left;
    }
-   /* .thumbnailBoxLarge{
-       position: absolute;
-   } */
    
    .imageWrapper {
         /* width: 50px; */

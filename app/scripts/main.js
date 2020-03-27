@@ -2,11 +2,12 @@
 
 import Gallery from '../../../plugin/dist/gallary.umd';
 const el = document.getElementById('slider');
- new Gallery(el,{items:2 ,
-                width:500,
-                height:300
-               
-               });
+new Gallery(el, {
+    items:3,
+    width: 500,
+    height: 300
+
+});
 
 
 
