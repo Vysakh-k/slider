@@ -3,11 +3,19 @@
 import Gallery from '../../../plugin/dist/gallary.umd';
 const el = document.getElementById('slider');
 new Gallery(el, {
-    items:3,
-    width: 500,
-    height: 300
+    items: 2,
+    width:500,
+    height: 300,
+    thumbnails:5,
+    // thumbnailMargin:10,
+   
 
 });
+
+//for customisation use 
+// items : 'number' - for number of slides to move.
+// width : 'number' - width of the slider.
+// height: 'number  - height of the slider.
 
 
 
