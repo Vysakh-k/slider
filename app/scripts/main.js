@@ -4,10 +4,11 @@ import Gallery from '../../../plugin/dist/gallary.umd';
 const el = document.getElementById('slider');
 new Gallery(el, {
     items: 2,
-    width:500,
+    width: 500,
     height: 300,
-    thumbnails:5,
-    // thumbnailMargin:10,
+    thumbnails: 6,
+     //thumbnailWidth:46 ,
+     thumbnailMargin: 10,
    
 
 });
