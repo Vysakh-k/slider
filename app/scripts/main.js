@@ -3,27 +3,26 @@
 import Gallery from '../../../plugin/dist/gallary.umd';
 const el = document.getElementById('slider');
 new Gallery(el, {
-    items: 2,
-    width: 500,
-    height: 300,
-    thumbnails: 6,
-     //thumbnailWidth:46 ,
-     thumbnailMargin: 10,
+     items: 3,
+     width: 1200,
+     height: 700,
+    // thumbnails: 6,
+    // thumbnailWidth:70 ,
+    // thumbnailMargin: 10,
    
 
 });
 
+// default styles of thumbnails 
+    //   width       = 9% of container width.
+    //   height      = 9% of imageHeight .
+    //   thumbMargin = 1.1% of container width.
+
+
 //for customisation use 
-// items : 'number' - for number of slides to move.
-// width : 'number' - width of the slider.
-// height: 'number  - height of the slider.
-
-
-
-// Uncomment to enable Bootstrap tooltips
-// https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
-// $(function () { $('[data-toggle="tooltip"]').tooltip(); });
-
-// Uncomment to enable Bootstrap popovers
-// https://getbootstrap.com/docs/4.0/components/popovers/#example-enable-popovers-everywhere
-// $(function () { $('[data-toggle="popover"]').popover(); });
+    //           items : 'number' - for number of slides to move,
+    //           width : 'number' - width of the slider,
+    //          height : 'number' - height of the slider,
+    //      thumbnails : 'number' - count of thumbnails needed,
+    //  thumbnailWidth : 'number' - thumbnails width,
+    // thumbnailMargin : 'number' - thumbnails marginRight,

@@ -4,7 +4,7 @@
     width: auto;
     height: auto;
     margin: 0 auto;
-    /* overflow: hidden;   */
+    overflow: hidden;  
     align-items: center;
     user-select: none;
     position: relative; 
@@ -60,10 +60,7 @@
    #thumbnailBox{
    
        width: auto;
-       /* background-color: rgb(255, 255, 255); */
-    
-       /* background-color: rgb(248, 246, 246); */
-       background-color: tomato;
+       background-color: rgb(248, 246, 246);
        display: flex;
        justify-content: center;
        align-items: space-around;
