@@ -6,9 +6,13 @@ new Gallery(el, {
      items: 2,
      width: 500,
      height: 350,
-    //  thumbnails: 5,
+     slidesToMove:2,
+     //sliderMargin:0,
+      //thumbnails: 3,
     //thumbnailWidth:63 ,
-    //  thumbnailMargin: 15,
+      //thumbnailMargin: 5,
+      slideMove:2,
+
 
 
 });
@@ -26,3 +30,4 @@ new Gallery(el, {
     //      thumbnails : 'number' - count of thumbnails needed,
     //  thumbnailWidth : 'number' - thumbnails width,
     // thumbnailMargin : 'number' - thumbnails marginRight,
+    //     sliderMargin : 'number' - margin between slider and thumbnails,
