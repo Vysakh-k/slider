@@ -3,17 +3,17 @@
 import Gallery from '../../../plugin/dist/gallary.umd';
 const el = document.getElementById('slider');
 new Gallery(el, {
-     items: 3,
-     width: 1200,
-     height: 700,
-    // thumbnails: 6,
-    // thumbnailWidth:70 ,
-    // thumbnailMargin: 10,
-   
+     items: 2,
+     width: 500,
+     height: 350,
+    //  thumbnails: 5,
+    //thumbnailWidth:63 ,
+    //  thumbnailMargin: 15,
+
 
 });
 
-// default styles of thumbnails 
+// default styles of thumbnails in pixels
     //   width       = 9% of container width.
     //   height      = 9% of imageHeight .
     //   thumbMargin = 1.1% of container width.
